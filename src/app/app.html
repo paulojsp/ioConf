@@ -8,24 +8,27 @@
 
   <ion-content>
     <ion-list>
-      <ion-item>
+      <ion-item (click)=goToHome()>
         <ion-icon name="home" item-left color="primary"></ion-icon> Home
       </ion-item>
-      <ion-item>
+      <ion-item (click)=goToAgenda()>
         <ion-icon name="calendar" item-left color="primary"></ion-icon> Agenda
       </ion-item>
-      <ion-item>
+      <ion-item (click)=goToSpeakers()>
         <ion-icon name="person" item-left color="primary"></ion-icon> Speakers
       </ion-item>
-      <ion-item>
+      <ion-item (click)=goToAbout()>
         <ion-icon name="information" item-left color="primary"></ion-icon> About Coimbra
       </ion-item>
-      <ion-item>
+      <ion-item (click)=goToShop()>
         <ion-icon name="cart" item-left color="primary"></ion-icon> Shop
       </ion-item>
-      <ion-item>
+      <ion-item (click)=goToRegister()>
         <ion-icon name="log-in" item-left color="primary"></ion-icon> Register
         <ion-note item-right>Special Price!</ion-note>
+      </ion-item>
+      <ion-item (click)=goToDemos()>
+        <ion-icon name="logo-angular" item-left color="primary"></ion-icon> Demos
       </ion-item>
     </ion-list>
   </ion-content>

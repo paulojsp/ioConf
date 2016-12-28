@@ -3,14 +3,29 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { Speakers } from '../pages/speakers/speakers';
+import { Speaker } from '../pages/speaker/speaker';
 import { Register } from '../pages/register/register';
+import { AboutPage } from '../pages/about/about';
+import { ShopPage } from '../pages/shop/shop';
+import { AgendaPage } from '../pages/agenda/agenda';
+
+import { DemosPage } from '../pages/demos/demos';
+import { UsersPage } from '../pages/users/users';
+import { ContactsPage } from '../pages/contacts/contacts';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     Speakers,
-    Register
+    Speaker,
+    AboutPage,
+    ShopPage,
+    AgendaPage,
+    Register,
+    DemosPage,
+    UsersPage,
+    ContactsPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -20,7 +35,14 @@ import { Register } from '../pages/register/register';
     MyApp,
     HomePage,
     Speakers,
-    Register
+    AboutPage,
+    ShopPage,
+    AgendaPage,
+    Speaker,
+    Register,
+    DemosPage,
+    UsersPage,
+    ContactsPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })

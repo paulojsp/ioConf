@@ -22114,3 +22114,17 @@ ion-note {
   font-weight: bold;
   text-transform: uppercase;
 }
+
+page-geo #map {
+  height: 100%;
+  width: 100%;
+}
+
+page-users h2 {
+  text-transform: capitalize;
+}
+
+page-users p {
+  font-family: 'Fira Code',monospace;
+  font-size: 12px;
+}

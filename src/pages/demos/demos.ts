@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { ContactsPage } from '../contacts/contacts';
 import { UsersPage } from '../users/users';
-
+import { GeoPage } from '../geo/geo';
 
 @Component({
   selector: 'page-demos',
@@ -18,9 +18,12 @@ export class DemosPage {
   goToContacts(){
     this.navCtrl.push(ContactsPage);
   }
-  
+
   goToUsers(){
     this.navCtrl.push(UsersPage);
   }
 
+  goToGeo(){
+    this.navCtrl.push(GeoPage);
+  }
 }

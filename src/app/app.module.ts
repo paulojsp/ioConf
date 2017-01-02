@@ -13,6 +13,8 @@ import { DemosPage } from '../pages/demos/demos';
 import { UsersPage } from '../pages/users/users';
 import { ContactsPage } from '../pages/contacts/contacts';
 
+import { GeoPage } from '../pages/geo/geo';
+
 @NgModule({
   declarations: [
     MyApp,
@@ -25,7 +27,8 @@ import { ContactsPage } from '../pages/contacts/contacts';
     Register,
     DemosPage,
     UsersPage,
-    ContactsPage
+    ContactsPage,
+    GeoPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -42,7 +45,8 @@ import { ContactsPage } from '../pages/contacts/contacts';
     Register,
     DemosPage,
     UsersPage,
-    ContactsPage
+    ContactsPage,
+    GeoPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })
